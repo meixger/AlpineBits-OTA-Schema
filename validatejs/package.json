@@ -1,0 +1,15 @@
+{
+  "name": "validatejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "libxmljs": "^1.0.11"
+  }
+}
