@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.opentravel.org/OTA/2003/05" elementFormDefault="qualified" version="1.000" id="OTA2015A">
+	<xs:include schemaLocation="OTA_PingRQ.xsd"/>
+	<xs:include schemaLocation="OTA_PingRS.xsd"/>
+	<!-- FreeRooms -->
+	<xs:include schemaLocation="OTA_HotelAvailNotifRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelAvailNotifRS.xsd"/>
+	<!-- GuestRequests -->
+	<xs:include schemaLocation="OTA_ReadRQ.xsd"/>
+	<xs:include schemaLocation="OTA_ResRetrieveRS.xsd"/>
+	<xs:include schemaLocation="OTA_HotelResNotifRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelResNotifRS.xsd"/>
+	<xs:include schemaLocation="OTA_NotifReportRQ.xsd"/>
+	<xs:include schemaLocation="OTA_NotifReportRS.xsd"/>
+	<!-- Inventory -->
+	<xs:include schemaLocation="OTA_HotelDescriptiveContentNotifRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelDescriptiveContentNotifRS.xsd"/>
+	<xs:include schemaLocation="OTA_HotelDescriptiveInfoRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelDescriptiveInfoRS.xsd"/>
+	<!-- RatePlans -->
+	<xs:include schemaLocation="OTA_HotelRatePlanNotifRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelRatePlanNotifRS.xsd"/>
+	<!-- BaseRates -->
+	<xs:include schemaLocation="OTA_HotelRatePlanRQ.xsd"/>
+	<xs:include schemaLocation="OTA_HotelRatePlanRS.xsd"/>
+</xs:schema>
